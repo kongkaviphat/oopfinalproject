@@ -1,0 +1,47 @@
+button{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.csv{
+    overflow-y: scroll;
+    height: 500px;
+    width: 500px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(192, 244, 246);
+}
+tr:nth-child(odd) {
+    background-color: rgb(255, 242, 231);
+}
+
+/* tr :hover{
+    text-decoration: underline;
+}
+ */
+tr{
+    border-top: 1px solid black
+}
+
+.load{
+    margin-left: -120px;
+    margin-right: 120px;
+}
+
+canvas{
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.Bar{
+    padding-top: 30px;
+    padding-bottom: 130px;
+}
+.block{
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 600px;
+    height: 600px;
+}
